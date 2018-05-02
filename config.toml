@@ -33,7 +33,7 @@ canonifyurls = true
 [author]
   name = "Patrick Blomquist"
   bio = "Too curious too sit still"
-  job = "Explorer in all ways and fashion"
+  job = "Data explorer"
   location = "Norway"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
   gravatarEmail = "patrick.blomquist@gmail.com"
@@ -89,6 +89,14 @@ canonifyurls = true
   name = "Twitter"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-twitter\"></i>"
   url = "https://twitter.com/PatBl0mquist"
+
+[[menu.links]]
+  weight = 3
+  identifier = "instagram"
+  name = "Instagram"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-instagram\"></i>"
+  url = "https://www.instagram.com/explorer_on_two_wheels/"
+
 
 [[menu.misc]]
   weight = 1
@@ -205,6 +213,8 @@ canonifyurls = true
     class = ""
     icon = ""
     url = "/#about"
+
+  ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
   # Customize link of author avatar in sidebar
   # [params.sidebar.profile]
